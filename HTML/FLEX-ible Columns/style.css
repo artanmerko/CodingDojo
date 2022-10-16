@@ -1,0 +1,28 @@
+.row{
+  display: flex;
+  text-align: center;
+  justify-content: start;
+  padding-top: 10px;
+}
+.col,.col-2, .col-3, .col-4{
+  background-color: lightseagreen;
+  width: 200px;
+  border: 8px solid white;
+  padding: 20px;
+  padding-top: 10px;
+}
+.col, .col-2, .col-3{
+  flex:1;
+  text-align: center;
+}
+.col-4{
+  background-color: lightcoral;
+  width: 100px;
+  height: 300px;
+  text-align: center;
+  font-weight: 600;
+}
+.column{
+  column-count: 4;
+  column-gap: 40px;
+}
