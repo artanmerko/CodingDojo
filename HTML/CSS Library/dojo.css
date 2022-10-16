@@ -1,0 +1,122 @@
+* {
+  color: white;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+h1{
+  font-size: 30px;
+}
+.nav{
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(40, 38, 38, 0.885);
+}
+.nav-title{
+  padding-left: 15px;
+}
+
+ul{
+  list-style: none;
+  display: flex;
+  width: 500px;
+  justify-content: space-around;
+  font-size: 20px;
+}
+li{
+  padding: 10px;
+}
+.nav-links a{
+  text-decoration: none;
+  color: lightslategray;
+}
+.nav .nav-links .active{
+  color: white;
+}
+.btn{
+  background-color: gray;
+  background-color: lightseagreen;
+  box-shadow: 3px 3px  black;
+}
+.row{
+  display: flex;
+  text-align: center;
+  justify-content: start;
+  padding-top: 10px;
+}
+.col,.col-2, .col-3, .col-4{
+  background-color: lightseagreen;
+  width: 200px;
+  border: 8px solid white;
+  padding: 20px;
+  padding-top: 10px;
+}
+.col, .col-2, .col-3{
+  flex:1;
+  text-align: center;
+}
+.col-4{
+  background-color: lightcoral;
+  width: 100px;
+  height: 250px;
+  text-align: center;
+  font-weight: 600;
+}
+.column{
+  column-count: 4;
+  column-gap: 40px;
+}
+.wrapper{
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  bottom: 10px;
+}
+#search input{
+  background-color: rgb(252, 240, 240);
+  border-radius: 25px;
+  border: solid 2px rgb(41, 142, 108);
+  color: rgb(41, 142, 108);
+  text-align: center;
+  font-weight: bold;
+  margin-right: 15px;
+  padding: 5px;
+}
+#btn{
+  border-radius: 50%;
+  font-weight: bold;
+  color: white;
+  background-color: lightseagreen;
+  border: lightseagreen;
+  margin-right: 15px;
+  padding:8px;
+  cursor: pointer;
+}
+#btn:hover{
+  background-color:black;
+  color: lightseagreen;
+}
+#account input {
+  background-color: lightskyblue;
+  border: 2px solid black;
+  box-shadow: 5px 5px  black;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  padding: 5px;
+  cursor: pointer;
+}
+footer{
+  color: black;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+
+}
+footer h4{
+  color: black;
+  padding-right: 20px;
+}
+a{
+  color: black;
+}
