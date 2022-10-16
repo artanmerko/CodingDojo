@@ -1,0 +1,38 @@
+*{
+  background-color: rgba(251, 242, 242, 0.929);
+}
+img{
+  height: 200px;
+}
+h1{
+  text-align: center;
+}
+section{
+  display: block;
+}
+.top{
+  background-color: lightskyblue;
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  margin-bottom: 15px;
+}
+.middle{
+  background-color: lightpink;
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  margin-bottom: 15px;
+}
+.bottom{
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+footer {
+  text-align: center;
+}
+footer a{
+  font-weight: 900;
+  color: rgba(18, 98, 203, 0.893);
+}
