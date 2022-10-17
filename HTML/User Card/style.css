@@ -1,0 +1,33 @@
+section{
+  padding: 20px;
+}
+.card{
+  border: 2px solid gray;
+  width: 500px;
+  font-family: cursive;
+  font-weight: 600;
+}
+#user{
+  border-radius: 50%;
+  border: 3px solid white;
+  width: 70px;
+  position: relative;
+  top: 50px;
+}
+.top{
+  padding: 15px;
+  background-color: rgb(54, 174, 214);
+}
+.location img, .settings img{
+  width: 15px;
+}
+h2, .keywords,.location, .settings{
+  padding-left: 25px;
+  padding-top: -2px;
+}
+.settings{
+  padding-bottom: 15px;
+}
+a{
+  color: rgb(19, 139, 213);
+}
