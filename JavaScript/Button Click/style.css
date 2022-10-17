@@ -1,0 +1,99 @@
+body{
+  padding: 1em;
+  font-family: sans-serif;
+}
+main, nav,.text{
+  display: flex;
+}
+nav{
+  justify-content: space-between;
+  background-color: rgb(215, 217, 220);
+}
+.dojonary{
+  padding-left: 1em;
+  font-weight: 500;
+}
+.search, .button{
+  padding: 1.5em;
+}
+.search input{
+  color: #a1a1aa;
+}
+.button button{
+  background-color: #2563eb;
+  color: white;
+  box-shadow: 3px 3px black;
+}
+.top, .bottom, .search input, .side-right{
+  border: 2px solid black;
+}
+main{
+  justify-content: space-between;
+  object-fit: contain;
+  width: 100%;
+}
+.side-left{
+  padding-top: 1em;
+}
+.bottom{
+  margin-top: 1em;
+}
+.text{
+  display: flex;
+}
+.top, .bottom{
+  padding: 1em;
+  object-fit: contain;
+  width: 26em;
+}
+#ninja, #ninja-2{
+  font-size: 1.6em;
+  margin: 0;
+}
+.verb p{
+  margin: 0;
+}
+#plural, #plural-2{
+  font-size: .8em;
+  margin-top: 0.4em;
+}
+.italic{
+  font-style: italic;
+}
+#noun, #noun-2{
+  padding-left: .3em;
+  font-size: .7em;
+  font-style: italic;
+}
+.likes button{
+  background-color: #fbbf24;
+  margin-top: 1em;
+  padding: .4em;
+  box-shadow: 3px 3px black;
+  font-weight: 600;
+}
+.explain{
+  padding-left: 1.4em;
+  padding-top: 1em;
+}
+a{
+ color: #0284c7;
+}
+.side-right{
+  padding: 1em;
+  margin: 1em;
+  object-fit: contain;
+  height: 8em;
+}
+.right-button button{
+  padding: .4em;
+  font-weight: 600;
+  background-color: #22c55e;
+  box-shadow: 3px 3px black;
+}
+button{
+  cursor: pointer;
+}
+#you{
+  font-weight: bold;
+}
