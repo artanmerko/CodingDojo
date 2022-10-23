@@ -1,0 +1,21 @@
+.user{
+  font-family: sans-serif;
+  border: 2px solid black;
+  width: 320px;
+  height: 120px;
+  padding: 1em;
+  margin: 3em;
+}
+.top{
+  display: flex;
+  justify-content: space-between;
+}
+span{
+  padding-right: 2em;
+}
+button{
+  background-color: #fcd34d;
+  padding: .3em .6em;
+  font-weight: 600;
+  box-shadow: 3px 3px black;
+}
