@@ -2,9 +2,9 @@ var count1 = 0;
 var count2 = 0;
 var count3 = 0;
 
-var countElement1 = document.querySelector('.number-1')
-var countElement2 = document.querySelector('.number-2')
-var countElement3 = document.querySelector('.number-3')
+var countElement1 = document.querySelector('.number-1');
+var countElement2 = document.querySelector('.number-2');
+var countElement3 = document.querySelector('.number-3');
 
 function increase1() {
   count1++;
