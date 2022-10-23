@@ -1,0 +1,199 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*{
+  box-sizing: border-box;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.logo, .links ul, .main-info, .tittle, .main-bottom, nav, .portfolio-header, .portfolio-main, .portfolio-footer {
+  display: flex;
+}
+.logo{
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, .9);
+  color: white;
+  padding: 0.5em;
+}
+.logo-number{
+  padding: 1em;
+}
+.links ul{
+  justify-content: flex-start;
+  gap: 1em;
+  padding: 0.7em;
+  color: rgb(168, 165, 165);
+  font-size: .9em;
+}
+.links ul li{
+  border-right: 2px solid #4e4e4e;
+  padding-right: 1em;
+  font-weight: bold;
+  cursor: pointer;
+}
+nav{
+  justify-content: space-between;
+  background-image: linear-gradient(#515151, #444444, #222222);
+}
+.aside{
+  border-left: 2px solid #4e4e4e;
+  padding-right: 2em;
+}
+#home{
+  color: white;
+}
+main{
+  background-color: #78716c
+}
+.main-pic img{
+  object-fit: contain;
+  width: 100%;
+}
+.main-info{
+  justify-content: space-around;
+  padding: 1.5em;
+  background-color: #1b1a1a;
+  color: white;
+}
+.main-info-tittle{
+  color: rgb(243, 163, 15);
+  padding-top: .6em;
+}
+.info-pic img{
+  height: 2em;
+  width: 2em;
+  padding-right: .5em;
+  padding-top: .5em;
+}
+.main-info-p{
+  font-size: .58em;
+  padding-top: .4em;
+  padding-bottom: 2em;
+
+}
+.tittle{
+  justify-content: space-around;
+}
+.icons{
+  padding-top: 1em;
+}
+.main-bottom{
+  width: 100%;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  padding: 2.5em;
+  color: rgba(255, 255, 255, .6);
+  font-size: .7em;
+  background-image: linear-gradient(135deg, #050505 37.50%, #161616 37.50%, #161616 50%, #050505 50%, #050505 87.50%, #161616 87.50%, #161616 100%);
+  background-size: 5.66px 5.66px;
+}
+.main-bottom-tittle{
+  font-size: 1.5em;
+  padding-bottom: .4em;
+  color: white;
+}
+.main-bottom-button{
+  padding-top: .7em;
+}
+button{
+  background-color: #fb923c;
+  border: 1px solid #fb923c;
+  padding: .5em;
+  font-size: 1.3em;
+  border-radius: 5% 5%;
+  width: 6em;
+  font-weight: 500;
+  color: white;
+  cursor: pointer;
+}
+.portfolio{
+  display: inline-block;
+  background-color: rgba(0, 0, 0, .9);
+  padding: 1em;
+}
+.portfolio-header{
+  justify-content: space-between;
+  padding-bottom: 1em;
+  padding-top: 1em;
+}
+.portfolio-header-name{
+  font-size: 1.4em;
+  color: white;
+}
+.portfolio-header-link a{
+  color: #fb923c;
+  text-decoration: none;
+  font-size: .7em;
+  font-weight: 600;
+}
+.portfolio-main{
+  justify-content: space-around;
+  gap: 1em;
+}
+.portfolio-main img{
+  object-fit: contain;
+  width: 100%;
+  border: 3px solid rgb(92, 90, 90);
+}
+.portfolio-tittles{
+  color: #fb923c;
+  padding-bottom: .6em;
+  padding-top: .6em;
+  font-size: .9em;
+}
+.portfolio-main p{
+  font-size: .6em;
+  color: rgba(255, 255, 255, .6);
+}
+.portfolio-footer{
+  justify-content: flex-end;
+  padding-top: 2em;
+  font-size: .6em;
+  color: rgba(255, 255, 255, .6);
+}
+
