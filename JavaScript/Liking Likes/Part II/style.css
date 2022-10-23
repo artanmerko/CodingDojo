@@ -1,0 +1,94 @@
+.wrapper{
+  margin: 0em 4em;
+  font-family: sans-serif;
+}
+
+.users{
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  object-fit: contain;
+  width: 100%;
+}
+
+nav{
+  background-color: black;
+  color: #fff;
+  padding: 5px;
+}
+
+nav h1{
+  padding-left: 5px;
+  font-weight: 500;
+}
+
+.tittle{
+  text-align: center;
+}
+
+.users{
+  display: flex;
+}
+
+.left img{
+  height: 80px;
+  width: 80px;
+}
+
+.left {
+  display: inline-block;
+  padding: 10px;
+  border: 3px solid black;
+  width: 100px;
+  height: 180px;
+}
+
+.link a{
+  font-size: 12px;
+  font-weight: 600;
+  color: #0ea5e9;
+}
+
+.right{
+  display:inline;
+}
+
+.user-1, .user-2, .user-3{
+  border: 3px solid black;
+  padding: 10px;
+}
+
+.top{
+  display: flex;
+  justify-content: space-between;
+}
+
+.likes{
+  font-size: 15px;
+}
+
+.user-1, .user-2{
+  margin-bottom: 15px;
+}
+
+.likes button{
+  background-color: #fde047;
+  font-weight: 600;
+  padding: 5px 10px;
+}
+
+.name{
+  font-size: 18px;
+}
+
+.bottom p{
+  font-size: 14px;
+}
+
+.name, .bottom p, .number-1, .number-2, .number-3{
+  font-weight: 600;
+}
+
+.number-1, .number-2, .number-3{
+  padding-right: 30px;
+}
